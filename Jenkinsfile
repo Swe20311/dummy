@@ -1,7 +1,7 @@
 node{
     stage("sdsd"){
     sh '''
-    mkdir swetha
+    #mkdir swetha
     cd swetha
     tee test.sh << 'EOF'
 cat $cur/test.sh
