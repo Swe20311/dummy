@@ -11,7 +11,7 @@ pipeline{
                 sh "echo $swe"
                 sh "ls -la"
                 // sh "cat test"
-                // test webhook
+                // test webhook 
             }
         }
         stage('archive artifacts'){
